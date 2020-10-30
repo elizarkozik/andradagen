@@ -1,0 +1,78 @@
+    Dagens agenda den 30 oktober 2020
+    // hanterar versionen, vem och när någon har ändrat något i coden
+
+    git upprepning:
+    git init // säger till git att spåra den mappen // en per projekt.
+
+    git add. // allt från mappen. Detta är viktigt
+    git commit -m "meddelandet" // för att kunna spara filerna från mappen. Varje gång man vill göra en ändring, detta är viktigt
+
+git status  (är inte viktigt för att spara) men vilka filer sparar. Visa tracked/untracked filer
+
+    //då har man sparat allt i git  .
+    // I din dator
+
+**** github ****
+
+Remote repos/workning directiry/ mapp . //github
+            //molnet när man laggar (sparar eller sparfil) online.
+spara // för att kunna spara (logga in) i molnet behöver man credentials,
+    
+    
+    *git remote add origin https://din-repo-adressen-som-du-får-när-du-skapar-repos // en gång per projekt.
+* git push origin main // main är branch
+
+***hur vi kan skapa branch
+git branch dev skapa en branch
+hur vi kan sara allt i branchen
+git add .
+git commit -m " commited" // commita
+
+git push origin dev
+** hur vi kan pusha alla branch kod till online
+git push origin dev
+
+** change branch and merge
+git checkout mater // buter an til master
+git merge dev // erging från dev till master
+
+
+
+git branch dev // skapa en branch 
+git commit -m " commited" // commita
+git push origin dev
+
+    git branch
+    
+    Loklt/spara i din dator/i git task:
+
+    **steg 1: git aktivering i projekt
+
+    ** steg 2: spara allt i git. (Vilka kommado ska man använda?)
+
+    ** steg 3: Kolla statu/ kolla git log/git
+    ls .git den visar osynliga filer, saker som bara git ser i sin mapp. 
+
+    // online : github
+    om ni ser VIM text editor kommer ni ta exit från detta med : 
+    ctrl + c: :qa!
+
+    main main branch
+    // git branch -M main
+    // production branch/huvud branch
+
+// basic linux commando
+    // git conflit
+
+Nä händer git conflit? nÄR FLERA personer jobbarpå samma fil/mapp/projekt
+Sandra och Sussana jobbar med index.html
+    När händer git conflit?
+Sandra har skrivit header taggen
+Sussana har skrivit footer taggen
+    jobbar båda på Dev branch.
+    Hur löser vi detta?
+Sandra : git add index.html samtisigt som henne och git commit -m " "
+git push origin Dev
+Sussana:git add index.html och git commit -m " "  
+conflit: git pull origin dev
+accpet current changes-- accpet borh changes --- deny changes

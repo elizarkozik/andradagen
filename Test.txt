@@ -1,0 +1,246 @@
+
+<!DOCTYPE html> html >head + body. 
+
+tag = p, html , head
+element = <p> </p> 
+Element har ett start tag <> och slut tag </> Stäng alltid taggarna
+<input type= "text"/>
+
+ inline : span, img,a och block p, h, div, element 
+
+ <img src="" alt=""> Src är själv bilden alt är till för döva som måste höra
+ Skriv vad du kallade bilden och den kommer sparas som .jpg
+
+ Kopiera bildares inte länkadres. i img
+
+ p*3 blir till 3 <p><p/>
+ <p></p>
+<p></p>
+<p></p>
+
+p. = class
+<p class="paragraf"></p>
+<p class="paragraf"></p> Det kan inte vara samma namn den ena (under) måste hetta något annat
+
+kolla på fusklapp
+p#paragraf$*5
+    
+Testa: p#box$*3 + enter
+
+<p id="paragraf1" class="paragraf"></p>
+<p id="paragraf2" class="paragraf"></p>
+skriva bara paragraf två gånger så här: 
+p#paragraf$*5.paragraf
+
+Välj någon ord du vill ändra och sedan ctrl + D så kan du välja flera av samma typ
+
+  <input type="text">
+
+<p id="paragraf1" class="paragraf"></p>
+<p id="paragraf2" class="paragraf"></p>
+
+<p id="paragraf1"></p>
+<p id="paragraf2"></p>
+
+ <Div></Div> Divition olika delar.
+ li = lista
+
+ &copy = copyright
+
+ nav = meny för datorn
+
+
+
+ <Ul>
+    <li>home</li>
+    <li>about us</li>
+    <li>contact</li>
+    <li>product</li>
+</Ul>
+<dl>
+        <li>detta är mer för tabeller home</li>
+        <li>about us</li>
+        <li>contact</li>
+        <li>product</li>
+</dl>
+
+<ol type="a">
+    <li>home</li>
+    <li>about us</li>
+    <li>contact</li>
+    <li>product</li>
+</ol>
+
+<marquee behavior="this text will" direction="left"></marquee>
+
+style="" man kan skriva SCC så här.
+eller så här
+style>
+
+        
+    </style>
+
+    <link rel="stylesheet" href="style.css"> måste vara i head tagen
+    Layout och desing
+
+    #selector{
+  
+    background-color: aqua;
+    color: rgb(253, 1, 1);
+}
+
+ @copy; <span></span> fast egentligen är det &copy 2020
+ 
+display: inline;
+height: 400px;
+width: 300px;
+padding: 40px;
+margin: 20px;
+
+ span{ 
+    display: inline-block;
+    background: green;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+De här bestämmer olika egenskaper för olika lägen på längkarna.
+a {
+    text-decoration: none;
+}
+a:link { 
+    color: rebeccapurple;
+
+}
+
+a:active {
+    color: plum;
+}
+a:hover{
+    color: green;
+    
+}
+a:visited {
+    color: red;
+}
+DOM : Document Object Model hur docoment extraueras, desighnas eller modeleras.
+Alla element är ett Object.
+Model är hur de presenteras. Under ett rut (html lang="en" är ett exempel på saken)  
+html lang="en" element har "barn" eller "syskon" till head. html lang="en är förfäder/ancestor i DOM TREE.
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizars hemsida</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    Alla <a> är barn till li
+
+    vi kan använda form för att ta emot, file, color, email, test, password osv 
+
+      html doc font size==  1 rem== 16 pix
+
+      html, body {
+font-size: 16px; 
+      }
+
+
+          ------
+          
+         .i-1 {
+order:2;
+
+}
+.i-4 {
+    order:-1;
+    align-self: flex-end;
+} 
+          -------
+          det mamma sade att jag skulle ta bort detta:
+
+          
+*{
+   margin: 0;
+   padding: 0;
+box-sizing: border-box;
+   }
+
+nav{
+    padding: 1.25rem;
+    background: gray;
+    height: 2.5rem;
+    font-size: 20px;
+}
+
+ul{
+    height: 2em;
+    text-align: center;
+}
+
+li {
+display: inline;
+margin-right: 30px;
+
+}
+
+a {
+    text-decoration: none;
+} 
+
+height: 100vh; den View användaren ser på devise mobil eller dator. 100 betyder hela.  
+
+#article14{ background: indianred;
+position: relative;
+left:200px
+}
+position tror jag håller koll på dens vanliga/orginela/första plats (sin gamla plats).
+
+han hade top på lektionen:
+#article14{ background: indianred;
+    position: relative;
+    left:200px;
+    top:200px
+}
+
+position: fixed;
+
+z-index: -1; detta handlar om lager, den liger bakom bilden
+   transform: translate(-50%, -50%); när man vill lägga något i mitten.
+
+   Flexbox är ett sätt att ge Layout till hemsidan
+
+<div class="flex-container">
+    <div class="flex items"></div>
+    <div class="flex items"></div>
+    <div class="flex items"></div>
+    <div class="flex items"></div>
+</div>
+
+Flexbox: för att ge one dimentional Layout.
+
+   container /parent eleent > flex items,  man bestämmer om man ska ha flex egenskap
+   
+   container -> display flex ,flex-direction, justify-content, align-items, align-content, flex-wrap.
+   Man kan inte använda Flexbox om man inte har någon flex-container.
+
+   flex items, flex itmes: order, flex-shrink, flex-basis, flex, align-self
+Justify-contet: flex-end, center, space-around, space-between, space-evenly   
+align (FLYTTAS I EXIS)-times: flex-start,  center, flex-end
+använd align-itmes, Justify-content FÖR ATT flytta FLEX ITES i center
+
+
+flex-containe 
+align-items: center;
+        justify-content: center;
+        align-items: center;
+
+flex-direction 7
+order, align-self om man vill ändra en item.
+
+container egenskaper
+
+itmes egenskaper
+
+ <link href= Goggle front. detta är bara olika sätt att visa fin text so man kan välja på documnet.
+ font-family: sans-serif serif 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

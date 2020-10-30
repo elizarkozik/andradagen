@@ -1,0 +1,56 @@
+/*css selector:
+
+tagname { egenskap: värdet; }
+
+    .classname { egenskap: värdet: }
+
+    #idnamn {   tagname {egenskap: värde; }
+    
+
+    När det är css konfluct:
+    p { color: black;}
+    
+    .p-class{ color: green;}
+    #p-id{color: hotpink;}
+    
+    
+    nav background
+    nav ska ha en height
+    punkterna ska borta
+    de ska visas i samma rad
+
+
+ om boxmodell:
+
+block element: margin, padding, higth
+
+inline element: 
+hight och width gäller inte för inline element.
+
+inline-block elemnet: 
+då element är inline eller har radbrytning och  height och width kan implementeras där. 
+
+Läraren frågade, inte jag: Img? varför fungerar height och width?
+
+
+
+display: block
+
+
+*/
+/*//*/ /* vad handlade detta om?: inget relevant nu */
+
+
+nav{
+        background: gray;
+    height: 40px;
+}
+
+ul{text-align: center;
+
+}
+
+li {
+display: inline;
+margin: 30px;
+}

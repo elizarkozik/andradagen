@@ -1,0 +1,39 @@
+
+
+
+css selector
+box model
+css reset 
+Pseoudo-class selector // a taggarna 
+Pseoudo elements ::
+
+DOM tree // HTML fmilje tee
+Option and select HTML elements form.
+a tag, multiple pages
+Git och github
+
+
+boxmodell: alla elements räcknas som en låda. Den kan bordjard hight width, den kan yttre och inre margenial, padding.
+Men det finns undantag: inline element, då fungerar inte hight och width. Men om det är inline block element. Det finns tre olika egenskaper: 
+block; (margin padding, heigh, width, border), 
+inline: (margin, padding,border) och 
+inline-block: (margin padding, heigh, width, border ochså inline (ingen radbrydning)) element. 
+När använder man en inline-block? När man vill implemintera hight och width på inline-block.
+Om man är osäker googla
+
+Span är en inline-block element, då kommer heigh, width inte fungera. använd en egenskap.
+Display: inline-block; DÅ KAN span impleminteras. 
+-----------
+Positiion: static (det är det vanligaste egenskap, defult), relative, absolute (dessa två är de vanligaste), fixed (sticky (blandning av relative + fixed)).
+relative(positionering): Positiion:relative
+left:30px; den element som har dessa två egenskaper kommer att flyttas  30 px left från sin relativ plats (från den platsen den var innan på).
+den flyttar på sin plaats left, right, top, bottom.
+* Den behåller sina gmala plats.
+
+absolute (positionering):
+    Positiion:absolute;
+    left:30px; 
+    det är samma egenskap som relative positionering.
+    parents: Positiion:relativ;
+    * men den LÄMMNAR SINA plats. Den andra element som ligger under, tar över, den pushar in.
+    * parent element måste vara ha relativ positionering. Annars kommer den försöka den ansenstor som har relativ positionering och försöka anpassa sig efter den. 

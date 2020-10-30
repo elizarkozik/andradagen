@@ -1,0 +1,343 @@
+/*css selector:
+
+tagname { egenskap: värdet; }
+
+    .classname { egenskap: värdet: }
+
+    #idnamn {   tagname {egenskap: värde; }
+    
+
+    När det är css konfluct:
+    p { color: black;}
+    
+    .p-class{ color: green;}
+    #p-id{color: hotpink;}
+    
+    * selector // välj allt
+    nav background
+    nav ska ha en height
+    punkterna ska borta
+    de ska visas i samma rad
+
+
+ om boxmodell:
+
+block element: margin, padding, higth
+
+inline element: 
+hight och width gäller inte för inline element.
+
+inline-block elemnet: 
+då element är inline eller har radbrytning och  height och width kan implementeras där. 
+
+
+Img? varför fungerar height och width?svar: det är en inline-block
+
+
+
+display: block
+
+span{
+display: inline-block
+bakground:red;
+hight: 300px;
+width: 300px;    
+}
+
+återkommer: 9.35 
+MINA FRÅGOR: Vad är allt detta i det görna och varför står det 5 röda fil i style.css? Ungerfär runt 1:27:00 kommer det upp.
+
+absolute, har till skilland från relative; har ingen orginal plats
+den flyttar på  berode på parentes postion.
+Den kommer följa <body>. 200px ifrån toppen ifrån .html
+
+
+
+** px (storleken per pixel), rem och em (mer resonseiv deisne, sammma som storlek, fast på ett annat sett mer anvanserat), hv, vw
+
+git initialize: git init
+git status: vilka ändringar har hänt
+git add: vilka filer ni vill git ska spara : git add file .
+sparar: git commit -m "skriver man vetting meddelandet om ändringar , name"
+
+jag förstår inte hur man intialiserar. ? MAN SKA SKRIVA GIT INIT OSV 
+
+
+molntjänst : github , gitbucket
+https://caniuse.com/ // för att kunna se om egenskaperna är godkända av browser
+
+scc position:
+static : default
+relative : med hjälp av top bottom left right kan man flytta elemenn från sin plats.
+absolute : samma som relatibe  positionering '
+            men 
+            men absolute OCH relative är de vikttigaste man ska kommma ihåg.
+            
+            när den flyttar lämnar den sin gamla plats
+            parents ska ha relavitve positionering 
+            annars fölljer den html body element
+fixed:  FIXED följer efter när man scrollar.
+
+
+--
+sticky (en blandning mellan): fixed och relative
+
+css selector:
+
+tagname { egenskap: värdet; }
+
+    .classname { egenskap: värdet: }
+
+    #idnamn {   tagname {egenskap: värde; }
+    
+
+    När det är css konfluct:
+    p { color: black;}
+    
+    .p-class{ color: green;}
+    #p-id{color: hotpink;}
+    
+    * selector // välj allt
+    nav background
+    nav ska ha en height
+    punkterna ska borta
+    de ska visas i samma rad
+
+
+ om boxmodell:
+
+block element: margin, padding, higth
+
+inline element: 
+hight och width gäller inte för inline element.
+
+inline-block elemnet: 
+då element är inline eller har radbrytning och  height och width kan implementeras där. 
+
+
+Img? varför fungerar height och width? <-- läraren, inte jag
+
+
+
+display: block
+
+varje device:16 font-size
+1 rem =device font-size //16 px
+
+*/
+*{
+   margin: 0;
+   padding: 0;
+box-sizing: border-box;
+   }
+   html { font-size: 16px;
+
+   }
+nav{
+    padding: 20px;
+    background: rgb(6, 199, 32);
+    height: 40px;
+    
+    
+}
+
+
+ul{
+   
+  
+    width: 100%;
+}
+
+li {
+display: inline;
+margin-right: 30px;
+
+}
+
+
+
+
+.nav-li {
+
+    position: relative;
+}
+
+/*///*/ /*detta funkgerar inte heller att ändra på home, about, contact eller blogg. trots att jag försöker med statc aboslut och fixed */
+
+.li-about {
+    left: 85%;
+
+}
+.li-contact {
+    left:90%;
+}
+.li-blogg{
+right:
+95%; 
+
+}
+
+.li-home {
+
+left: 10%;
+
+}
+
+/*vad är det för fel på detta? och varför fungerar inte rem på .li-home (ta bort sen)/*//*/ */
+main {
+
+}
+.flex-card-container{
+display: flex;
+flex-wrap: wrap;
+
+}
+.card-img {
+height: 10rem;
+width: 10rem; 
+}
+/*vad är det för fel på detta /*//*/ */
+.display{
+    
+}
+
+a {
+    text-decoration: none;
+}
+a:link { 
+    color: rebeccapurple;
+
+}
+
+a:active {
+
+    color: plum;
+}
+a:hover {
+    color: green;
+   transform: scale(2,2);
+}
+a:visited {
+        color: rgb(54, 26, 77);
+}
+a:link { 
+    color: rebeccapurple;
+
+}
+
+section {
+    position: relative;
+    height: 800px;
+    width: 800px;
+    border: 2px solid red
+}
+/*///*/ /* vad är .ole?*/
+.ole {
+    height: 200px;
+    width: 200px;
+}
+
+#article14{ background: indianred;
+    left:200px;
+    top:200px;
+    border: 
+    2px solid black;
+}
+
+#article24{ 
+    background: blue;
+    height:200px;
+    width: 200px;
+
+}
+#article34{ 
+    
+    background: plum;
+    height:200px;
+    width: 200px;
+
+}#article44{ 
+    background: goldenrod;
+}
+
+header{
+
+    background: linear-gradient(to right bottom, rgba(255, 0, 0, 0.8) ,rgba(255, 0, 0, 0.2)) , url("bilder/pexels-daria-shevtsova-704569.jpg");
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header-h1, .header-button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+/*///*/
+/* tagname.Classname, den här fungerar inte hellre...*/
+div.testing-Selector {
+background-color: red;
+
+}
+/*///*/
+/* tage > child element den nere funkar inte heller...*/
+div.testing-Selector> div  {
+    border: 2px soild green;
+
+}
+/* detta ändrar på socker och resten av orden i den meningen*/
+.color-test{
+color: rgb(255, 81, 0);
+
+font-family: 'Commissioner', sans-serif;
+}
+
+.spand-color-test{
+color: rgb(4, 0, 53)  
+}
+
+.header-h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: red;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+/* 
+horizontal
+verticle 
+*/
+
+.header-button {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    color: blue;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 20px 20px;
+    box-shadow: darkblue;
+    
+}
+
+.flex-container {
+        height: 800px;
+        border: 2px solid rgb(229, 255, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        
+}
+
+.flex-items {
+    background-color: rgb(183, 0, 255);
+    display:flex;
+    height: 200px;
+    width: 200px;
+    
+} 
+

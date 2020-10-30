@@ -1,0 +1,226 @@
+Den 19 oktober 2020
+CSS positionering
+Flexbox
+Boostrap
+Material UI, semantic UI
+Boostrap grid system
+Animation
+
+------------
+/*css selector:
+
+tagname { egenskap: v�rdet; }
+
+    .classname { egenskap: v�rdet: }
+
+    #idnamn {   tagname {egenskap: v�rde; }
+    
+
+    N�r det �r css konfluct:
+    p { color: black;}
+    
+    .p-class{ color: green;}
+    #p-id{color: hotpink;}
+    
+    * selector // v�lj allt
+    nav background
+    nav ska ha en height
+    punkterna ska borta
+    de ska visas i samma rad
+
+
+ om boxmodell:
+
+block element: margin, padding, higth
+
+inline element: 
+hight och width g�ller inte f�r inline element.
+
+inline-block elemnet: 
+d� element �r inline eller har radbrytning och  height och width kan implementeras d�r. 
+
+
+Img? varf�r fungerar height och width?svar: det är en inline-block
+
+
+
+display: block
+
+span{
+display: inline-block
+bakground:red;
+hight: 300px;
+width: 300px;    
+}
+
+Återkommer: 9.35 
+
+
+
+** px (storleken per pixel), rem och em (mer resonseiv deisne, sammma som storlek, fast p� ett annat sett mer anvanserat), hv, vw
+
+git initialize: git init
+git status: vilka �ndringar har h�nt
+git add: vilka filer ni vill git ska spara : git add file .
+sparar: git commit -m "skriver man vetting meddelandet om �ndringar , name"
+
+jag f�rst�r inte hur man intialiserar. ? 
+
+Emojis funkar inte att programer in :(
+
+molntj�nst : github , gitbucket
+https://caniuse.com/ // f�r att kunna se om egenskaperna �r godk�nda av browser
+
+css selector:
+
+tagname { egenskap: v�rdet; }
+
+    .classname { egenskap: v�rdet: }
+
+    #idnamn {   tagname {egenskap: v�rde; }
+    
+
+    N�r det �r css konfluct:
+    p { color: black;}
+    
+    .p-class{ color: green;}
+    #p-id{color: hotpink;}
+    
+    * selector // v�lj allt
+    nav background
+    nav ska ha en height
+    punkterna ska borta
+    de ska visas i samma rad
+
+
+ om boxmodell:
+
+block element: margin, padding, higth
+
+inline element: 
+hight och width g�ller inte f�r inline element.
+
+inline-block elemnet: 
+d� element �r inline eller har radbrytning och  height och width kan implementeras d�r. 
+
+
+Img? varf�r fungerar height och width?
+
+
+
+display: block
+
+
+*/
+*{
+   margin: 0;
+   padding: 0;
+box-sizing: border-box;
+   }
+nav{
+    padding: 20px;
+    background: gray;
+    height: 40px;
+}
+
+ul{
+    text-align: center;
+}
+main{
+    height: 60vh;
+    width: 80vw;
+    border: 2px black solid gray; 
+}
+
+
+li {
+display: inline;
+margin-right: 30px;
+
+}
+
+a {
+    text-decoration: none;
+}
+a:link { 
+    color: rebeccapurple;
+
+}
+
+a:active {
+
+    color: plum;
+}
+a:hover {
+    color: green;
+   transform: scale(2,2);
+}
+a:visited {
+        color: rgb(54, 26, 77);
+}
+}
+a:link { 
+    color: rebeccapurple;
+
+}
+
+a:active {
+
+    color: plum;
+}
+a:hover {
+    color: green;
+    
+}
+a:visited {
+        color: rgb(54, 26, 77);
+}
+
+kanske sen:
+main{
+    height: 140vh;
+    width: 100vw;
+    border: 2px black solid gray; 
+}
+
+FIXED följer efter när man scrollar. Men absolute OCH relative är de vikttigaste man ska komma ihåg.
+
+
+<section>
+    <article id="article14" class="article">1</article>
+    <article id="article24" class="article">2</article>
+    <article id="article34" class="article">3</article>
+    <article id="article44" class="article">4</article>
+</section>
+
+<form >
+
+    file:
+<input type="file" name="" id="">
+
+    color:
+<input type="color" name="" id="">   
+
+    email:
+<input type="email" name="" id="">
+
+    text:
+<input type="text" name="" id="">
+
+    password:
+<input type="password" name="" id="">
+    
+telefonummer:
+<input type="tel" name="" id="">
+
+submit:
+<input type="submit" value="send">
+
+<select name="" id="">
+    <option value="frontend">frontend</option>
+    <option value="database">database</option>
+    <option value="backend">backend</option>
+</select>
+
+</form>
+

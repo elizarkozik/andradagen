@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Den andra dagen</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <="nav-li"> <a href=""> Home</a></li>
+            <li class="nav-li"> <a href="www.pankaka.se"> About us</a></li>
+            <li class="nav-li"> <a href="#form">Contact</a> </li>
+            <li class="nav-li"> <a href="blogg.htm"> Blogg</a> </li>
+        </ul>
+    </nav>
+
+<main>
+    <h1>mat tips</h1>
+<p> S� h�r lagar man pankaka:   
+</p>
+<span>by Elizar </span> <span>2020 13 oktober</span>
+
+<figure>
+<img src="" alt="">
+<figcaption>
+     en favorit dish
+</figcaption>
+</figure>
+
+</main>
+
+<form >
+
+    file:
+<input type="file" name="" id="">
+
+    color:
+<input type="color" name="" id="">   
+
+    email:
+<input type="email" name="" id="">
+
+    text:
+<input type="text" name="" id="">
+
+    password:
+<input type="password" name="" id="">
+    
+telefonummer:
+<input type="tel" name="" id="">
+
+submit:
+<input type="submit" value="send">
+
+<select name="" id="">
+    <option value="frontend">frontend</option>
+    <option value="database">database</option>
+    <option value="backend">backend</option>
+</select>
+
+</form>
+
+<footer>
+
+
+</footer>
+
+   
+    &copy 2020
+</body>
+</html> 
+
+
+
