@@ -25,9 +25,7 @@ body {
 
     .container {
    flex-direction: column;
-    
-
-    background-color: red;
+   background-color: red;
 }
 div { 
     margin:10px; 
