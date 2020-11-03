@@ -1,0 +1,35 @@
+.contaomer {
+
+    display: flex;
+background-color: gray;
+}
+
+body {
+
+   background-color: gray; 
+}
+
+@media (max-width:768px) { 
+
+    body  {
+    
+        background-color: green;
+    }
+    .contianer {
+        flex-direction: column;
+    }
+     
+    }
+
+@media (max-width:576px) { 
+
+    .container {
+   flex-direction: column;
+    
+
+    background-color: red;
+}
+div { 
+    margin:10px; 
+}
+/* body { */ 

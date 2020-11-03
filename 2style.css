@@ -37,18 +37,50 @@ Läraren frågade, inte jag: Img? varför fungerar height och width?
 display: block
 
 
-*/
-/*//*/ /* vad handlade detta om?: inget relevant nu */
+inget relevant nu (UNDER) */
 
-
+/*/ /// /*detta funkgerar inte heller att ändra på home, about, contact eller blogg. trots att jag försöker med statc aboslut och fixed 
+kolla den där linken där Rakib visa koden, men om inte det funkgar, fråga rakib för detta är jättejobbigt. 
+*/ 
 nav{
         background: gray;
     height: 40px;
 }
 
-ul{text-align: center;
+ul{position: relative;
 
 }
+
+
+
+.nav-li {position: relative;
+ right: 0;
+}
+.li-about {
+    left: 80%;
+}
+
+.li-contact{
+    left: 85%;
+}
+
+.li-blogg{
+    position: relative;
+ left: 35%;
+
+}
+.li-home{ position: absolute;
+    left: 0px;
+}
+main {
+
+
+}
+.flex-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
 
 li {
 display: inline;

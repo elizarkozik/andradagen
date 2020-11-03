@@ -76,3 +76,14 @@ submit:
 
 
 
+
+ul{text-align: center;
+
+}
+
+
+.li-home {
+
+left: 10%;
+
+}

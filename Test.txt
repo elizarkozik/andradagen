@@ -104,7 +104,9 @@ margin: 20px;
     width: 200px;
 }
 
-
+Wrap: Om man inte har warp kan texten tränga sig in i en ruta eller bara i själva hemsidan. De tränger i nästa rad annars. 
+Den tar meningen till näst rad. De kan också visa allting på samma rad.
+No-wrap:
 
 De här bestämmer olika egenskaper för olika lägen på längkarna.
 a {

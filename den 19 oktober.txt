@@ -1,10 +1,16 @@
 Den 19 oktober 2020
-CSS positionering
-Flexbox
-Boostrap
-Material UI, semantic UI
+* CSS positioning: utmaning menu
+Flexbox: container: ska ha display:felx, de där child/itmes som finns i container har andra egenskaper: 
+justify-content, align-items. align-items, flex-direction, flex wrap.
+
 Boostrap grid system
+Material UI, semantic UI
 Animation
+
+19 oktober 2020
+
+*Amination
+
 
 ------------
 /*css selector:
